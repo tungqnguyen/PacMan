@@ -1,7 +1,6 @@
 package com.company;
+import java.util.Arrays;
 import java.util.Scanner;
-
-
 
 public class Main {
 
@@ -10,13 +9,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Grid Grid = new Grid(5,5);
         PacMan PacMan = new PacMan();
+        Util Util = new Util();
         boolean isStarted = false;
+        System.out.println("Welcome to PacMan world, please place your PacMan first " +
+                "and enter a valid command to control PacMan or enter EXIT to quit the game");
         while(true) {
             Grid.printArray();
             System.out.print("Please enter your command: ");
-            input = scanner.nextLine().split(" ");
+            input = scanner.nextLine().split("\\s+");
 
-            if(!Grid.checkInput(input)){
+            if(!Util.checkInput(input)){
                 System.out.print("Please enter a valid command");
                 System.out.println();
                 continue;
@@ -25,7 +27,7 @@ public class Main {
 
             if(!isStarted) {
                 if(!op.equals("PLACE")) {
-                    System.out.println("Invalid command ! Please PLACE your PacMan first using \"PLACE X Y F\"");
+                    System.out.println("Invalid command ! Please PLACE your PacMan first using \"PLACE X,Y,F\"");
                     continue;
                 } else{
                     isStarted = true;
@@ -37,11 +39,12 @@ public class Main {
                 break;
             }
             else if (op.equals("PLACE")) {
-                int x = Integer.parseInt(input[1]);
-                int y = Integer.parseInt(input[2]);
+                String[] pos = input[1].split(",");
+                int x = Integer.parseInt(pos[0]);
+                int y = Integer.parseInt(pos[1]);
                 //if it is a valid place operation, update pacman pos
                 if(Grid.placePacMan(x,y)) {
-                     PacMan.updatePacPos(new String[] {input[1], input[2], input[3]});
+                     PacMan.updatePacPos(new String[] {pos[0], pos[1], pos[2]});
                 } else {
                     System.out.println("PLACE failed");
                 }
@@ -54,16 +57,16 @@ public class Main {
                     boolean isPlaced = false;
 
                     if(face.equals("NORTH")) {
-                        isPlaced = Grid.placePacMan(x+1,y);
-                    }
-                    else if(face.equals("SOUTH")) {
-                        isPlaced = Grid.placePacMan(x-1,y);
-                    }
-                    else if(face.equals("EAST")) {
                         isPlaced = Grid.placePacMan(x,y+1);
                     }
-                    else if(face.equals("WEST")) {
+                    else if(face.equals("SOUTH")) {
                         isPlaced = Grid.placePacMan(x,y-1);
+                    }
+                    else if(face.equals("EAST")) {
+                        isPlaced = Grid.placePacMan(x+1,y);
+                    }
+                    else if(face.equals("WEST")) {
+                        isPlaced = Grid.placePacMan(x-1,y);
                     }
 
                     if(isPlaced) {
@@ -77,7 +80,15 @@ public class Main {
 
             }
             else if (op.equals("LEFT") || op.equals("RIGHT")) {
-
+                String[] pacPos = PacMan.getCurrentPacPos();
+                String currentDirection = pacPos[2];
+                String nextDir = Util.getNextDir(currentDirection,op);
+                if(!nextDir.equals(currentDirection)) {
+                    PacMan.updateDir(nextDir);
+                }
+            }
+            else if (op.equals("REPORT")) {
+                System.out.println("Output: " + Arrays.toString(PacMan.getCurrentPacPos()));
             }
         }
 

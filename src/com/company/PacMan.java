@@ -8,28 +8,12 @@ public class PacMan {
     public String[] getCurrentPacPos() {
         return pacPos;
     }
-
-    private boolean movePacMan() {
-
-        return true;
+    public void updateDir(String dir) {
+        this.pacPos[2] = dir;
     }
-    public boolean updatePacPos(String[] command){
-//        if(!isStarted) {
-//            if(!command[0].equals("PLACE")) {
-//                System.out.println("Invalid command ! Please PLACE your PacMan first using \"PLACE X Y F\"");
-//                return false;
-//            } else{
-//                isStarted = true;
-//            }
-//        }
-
-//        if (command[0].equals("PLACE")){
+    public void updatePacPos(String[] command){
             pacPos[0]=command[0];
             pacPos[1]=command[1];
             pacPos[2]=command[2];
-
-//        }
-
-        return true;
     }
 }
