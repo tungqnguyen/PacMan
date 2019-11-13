@@ -17,4 +17,8 @@ Run PacManTest class in "test" folder to run automated unit tests.
 
 To test Gaming Mode, manually type each command from any test file in "test_case" folder to see the outcome.
 
-For Normal mode, add new test case to "test_case" folder. Or you can run sample tests already provided, if you want to run different test case, just change the file name to your desired test case at line 188 in "Main" class. 
+For Normal mode, add new test case to "test_case" folder. Or you can run sample tests already provided, if you want to run different test case, just change the file name to your desired test case at line 188 in "Main" class. For example:
+
+```
+File file = new File("src/com/pacman/test/test_case/your_test.txt");
+```
