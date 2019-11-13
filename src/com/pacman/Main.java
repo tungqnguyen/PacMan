@@ -172,7 +172,7 @@ public class Main {
         System.out.println("Welcome to PacMan world, please place your PacMan first " +
                 "and enter a valid command to control PacMan");
         while(selection==-1) {
-            System.out.print("Please choose gaming mode (1) or normal mode (2): ");
+            System.out.print("Please choose \"gaming mode\"(1) or \"normal mode\"(2): ");
             if (scanner.hasNextInt()) {
                 int choice = scanner.nextInt();
                 scanner.nextLine();
@@ -185,7 +185,7 @@ public class Main {
         }
         if (selection==1)  runGamingMode();
         else {
-            File file = new File("src/com/pacman/test/test_case/test2.txt");
+            File file = new File("src/com/pacman/test/test_case/test3.txt");
             runNormalMode(file);
         }
     }

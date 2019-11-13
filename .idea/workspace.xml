@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f1db9d-03bf-4974-9466-39a66aaaebdf" name="Default" comment="Update gaming mode and normal mode">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java" />
+    <list default="true" id="80f1db9d-03bf-4974-9466-39a66aaaebdf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pacman/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Pacman/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pacman/Pacman.iml" afterPath="$PROJECT_DIR$/../Pacman/Pacman.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pacman/src/com/company/Grid.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/Grid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pacman/src/com/company/Main.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pacman/src/com/company/PacMan.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pacman/src/com/company/Util.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java" afterPath="$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../Pacman/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="3717">
+              <caret line="177" column="35" lean-forward="true" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java">
+      <file leaf-file-name="PacManTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-              <folding />
+            <state relative-caret-position="-282">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,20 +45,11 @@
       <file leaf-file-name="Grid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="277">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="e#0#215#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +93,9 @@
         <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTestTest.java" />
         <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java" />
         <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java" />
+        <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java" />
         <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java" />
+        <option value="$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java" />
       </list>
     </option>
   </component>
@@ -199,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PacManTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.pacman.Main" />
@@ -216,6 +209,106 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="PacManTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pacman.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Pacman" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pacman.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pacman.test.PacManTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PacManTest.testCheckInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pacman.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Pacman" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pacman.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pacman.test.PacManTest" />
+      <option name="METHOD_NAME" value="testCheckInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PacManTest.testGridMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pacman.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Pacman" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pacman.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pacman.test.PacManTest" />
+      <option name="METHOD_NAME" value="testGridMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PacManTest.testPacManMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pacman.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Pacman" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pacman.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pacman.test.PacManTest" />
+      <option name="METHOD_NAME" value="testPacManMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -231,9 +324,20 @@
       <envs />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PacManTest.testPacManMethods" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PacManTest.testGridMethods" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PacManTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PacManTest.testCheckInput" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PacManTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PacManTest.testCheckInput" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PacManTest.testGridMethods" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PacManTest.testPacManMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -262,8 +366,47 @@
       <option name="project" value="LOCAL" />
       <updated>1573543446208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update gaming mode and normal mode">
+      <created>1573623414448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573623414448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PacManTest - 2019.11.13 at 17h 57m 23s.xml">
+      <configuration name="PacManTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest - 2019.11.13 at 18h 08m 53s.xml">
+      <configuration name="PacManTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testCheckInput - 2019.11.13 at 18h 04m 46s.xml">
+      <configuration name="PacManTest.testCheckInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testGridMethods - 2019.11.13 at 17h 51m 38s.xml">
+      <configuration name="PacManTest.testGridMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testGridMethods - 2019.11.13 at 17h 51m 51s.xml">
+      <configuration name="PacManTest.testGridMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testGridMethods - 2019.11.13 at 17h 51m 57s.xml">
+      <configuration name="PacManTest.testGridMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testGridMethods - 2019.11.13 at 17h 53m 51s.xml">
+      <configuration name="PacManTest.testGridMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testPacManMethods - 2019.11.13 at 17h 19m 47s.xml">
+      <configuration name="PacManTest.testPacManMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testPacManMethods - 2019.11.13 at 17h 19m 54s.xml">
+      <configuration name="PacManTest.testPacManMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacManTest_testPacManMethods - 2019.11.13 at 17h 32m 04s.xml">
+      <configuration name="PacManTest.testPacManMethods" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,16 +419,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19817768" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19134396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35421413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22437358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -345,16 +489,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java">
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#215#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,62 +538,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java">
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="e#0#215#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Pacman/src/com/company/GridTest.java" />
     <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/GridTest.java">
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="3717">
+          <caret line="177" column="35" lean-forward="true" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
           <folding>
-            <element signature="e#0#215#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="method#updatePacPos#0;class#PacMan#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        <state relative-caret-position="-21">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Main.java">
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/PacMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="231">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Pacman/src/com/pacman/test/PacManTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

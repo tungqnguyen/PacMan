@@ -35,7 +35,7 @@ public class Util {
         }
     }
 
-    //calculate next direction according to LEFt or RIGHT
+    //calculate next direction according to LEFT or RIGHT
     public String getNextDir(String currentDir, String turn) {
         int idx=-1;
         for(int i=0;i<this.directions.length;i++) {

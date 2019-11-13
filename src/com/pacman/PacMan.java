@@ -11,9 +11,10 @@ public class PacMan {
     public void updateDir(String dir) {
         this.pacPos[2] = dir;
     }
-    public void updatePacPos(String[] command){
-            pacPos[0]=command[0];
-            pacPos[1]=command[1];
-            pacPos[2]=command[2];
+    public void updatePacPos(String[] position){
+            pacPos[0]=position[0];
+            pacPos[1]=position[1];
+            pacPos[2]=position[2];
+
     }
 }
