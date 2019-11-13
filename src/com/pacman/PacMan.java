@@ -1,4 +1,4 @@
-package com.company;
+package com.pacman;
 
 public class PacMan {
     private String[] pacPos;
